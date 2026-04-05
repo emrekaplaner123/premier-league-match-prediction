@@ -1,0 +1,12 @@
+# requirements.txt
+
+pandas>=1.4
+numpy>=1.22
+scikit-learn>=1.1
+joblib>=1.0
+openpyxl>=3.0  # to read Excel files
+pytest>=7.0    # if you're using pytest
+# If you use advanced math or visuals
+matplotlib>=3.5
+seaborn>=0.11
+# If you want some other libs, like xgboost or lightgbm, add them too.
