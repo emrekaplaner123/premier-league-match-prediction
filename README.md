@@ -1,14 +1,29 @@
-# premier-league-match-prediction
-Exploratory machine learning project focused on predicting Premier League match outcomes using historical data and feature-based modelling.
+# Premier League Match Outcome Prediction
 
-## Goal
-Test whether simple ML methods can predict match outcomes from historical data.
+Exploratory machine learning project for predicting Premier League match outcomes from historical match data.
 
-## Methods
-- data cleaning
-- feature construction
-- model training
-- evaluation
+## Overview
 
-## Result
-Results were modest, but the project was useful for learning about forecasting, feature design, and the difficulty of noisy real-world prediction problems.
+This project builds an end-to-end prediction pipeline in Python for classifying Premier League matches as:
+
+- Home win
+- Draw
+- Away win
+
+The workflow includes data collection, preprocessing, Elo rating generation, feature engineering, model training, evaluation, and prediction.
+
+The main goal of the project was to explore how far simple machine learning methods can go on a noisy real-world forecasting problem, while also building a complete and structured pipeline.
+
+## Project Structure
+
+```text
+premier-league-match-prediction/
+├── data/
+├── src/
+├── Stats/
+├── Tuning/
+├── Tuning_old/
+├── tests_old/
+├── main.py
+├── README.md
+└── requirments
