@@ -27,3 +27,33 @@ premier-league-match-prediction/
 ├── main.py
 ├── README.md
 └── requirments
+```
+
+## Pipeline
+
+The project is organized around main.py and includes the following steps:
+
+collect and combine match data
+preprocess and clean the dataset
+compute Elo ratings
+engineer match-level features
+train a machine learning model
+evaluate predictive performance
+generate match outcome predictions
+
+## Features
+
+The model uses a mix of handcrafted football and context features, including:
+
+Elo-based team strength measures
+recent team performance statistics
+match-level context variables
+rolling historical indicators
+
+These features are designed to capture relative team strength and recent form before each match.
+
+## Model
+
+The project uses a Random Forest classifier as a baseline machine learning model for predicting match outcomes.
+
+This is an exploratory project rather than a production-ready forecasting system, and the results are modest. The main value of the project is in feature construction, pipeline building, and evaluation of a difficult prediction task.
